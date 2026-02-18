@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Verificación de Trámites | UNAM FES Aragón</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #ecf0f5;
+            margin: 0;
+        }
+        
+        /* Encabezado Principal */
+        .main-header {
+            background-color: #063a75; /* Azul UNAM */
+            position: relative;
+            z-index: 1030;
+        }
+        .navbar {
+            margin-bottom: 0;
+            border: none;
+            border-radius: 0;
+            min-height: 70px; /* Aumentamos un poco la altura de la barra */
+        }
+        .navbar-brand {
+            color: #d4a76a !important; /* Oro UNAM */
+            font-size: 20px;
+            line-height: 40px; /* Centrar verticalmente el texto "TramiFES" */
+            height: 70px;
+        }
+        
+        /* Estilos para el logo con imagen */
+        .logo {
+            float: left;
+            height: 70px; /* Altura coincidente con la navbar */
+            padding: 5px 15px;
+            display: flex;
+            align-items: center; /* Centrar verticalmente la imagen */
+            text-decoration: none;
+            background-color: #063a75; /* Asegurar el fondo azul */
+        }
+        .logo img {
+            max-height: 60px; /* La imagen será un poco más pequeña que la barra */
+            width: auto; /* Mantiene la proporción original */
+        }
+        .logo:hover {
+            background-color: #063a75; /* Un azul ligeramente más oscuro al pasar el mouse */
+        }
+        
+        /* Contenedor principal */
+        .content-wrapper {
+            background-color: #ecf0f5;
+            padding-top: 20px;
+            min-height: 100vh;
+        }
+        .content-header h1 {
+            font-size: 24px;
+            margin: 0 0 20px 0;
+            color: #333;
+        }
+        
+        /* Tarjetas (Boxes) */
+        .box {
+            position: relative;
+            border-radius: 3px;
+            background: #ffffff;
+            border-top: 3px solid #d2d6de;
+            margin-bottom: 20px;
+            width: 100%;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        }
+        .box-default { border-top-color: #d2d6de; padding: 20px; }
+        .box-success { border-top-color: #00a65a; }
+        .box-header { color: #444; display: block; padding: 10px; position: relative; }
+        .box-title { display: inline-block; font-size: 18px; margin: 0; line-height: 1; }
+        .box-body { padding: 10px; }
+        
+        /* Widget del Usuario */
+        .widget-user-2 .widget-user-header {
+            padding: 20px;
+            border-top-right-radius: 3px;
+            border-top-left-radius: 3px;
+        }
+        .bg-blue {
+            background-color: #063a75 !important;
+            color: #fff !important;
+        }
+        .widget-user-2 .widget-user-image > img {
+            width: 80px;
+            height: auto;
+            float: left;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+        .widget-user-2 .widget-user-username {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 100px;
+            font-weight: 600;
+            font-size: 22px;
+        }
+        .widget-user-2 .widget-user-desc {
+            margin-left: 100px;
+            font-size: 16px;
+        }
+        
+        /* Tipografía de datos */
+        label {
+            font-weight: 700;
+            color: #333;
+            margin-right: 5px;
+        }
+        p {
+            font-size: 15px;
+        }
+        hr {
+            border-top: 1px solid #d2d6de;
+        }
+    </style>
+</head>
+<body class="layout-top-nav">
+<div class="wrapper">
+
+  <header class="main-header">
+    <nav class="navbar navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="logo">
+                <img src="img\logo fes.png" alt="Logotipos UNAM FES Aragón">
+            </a>
+        </div>
+        
+        <div class="navbar-custom-menu" style="float: right;">
+          <ul class="nav navbar-nav">
+              <a href="#" class="navbar-brand" style="color: #ffffff !important;">
+                  <b>TramiFES</b>
+              </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="content-wrapper">
+    <div class="container">
+      <div class="box box-default">
+      
+      <section class="content-header">
+        <h1>Verificación de Trámites - F.E.S. ARAGON (INGENIERIA)</h1>
+      </section>
+
+      <section class="content">
+        <div class="row">  
+            <div class="col-md-8">
+                <div class="row">    
+                    <div class="col-md-12">
+                        <div class="box box-widget widget-user-2">
+                            <div class="widget-user-header bg-blue">
+                                <div class="widget-user-image">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="User Avatar">
+                                </div>
+                                <h3 class="widget-user-username">TRUJILLO RUIZ DAVID URIEL</h3>
+                                <h5 class="widget-user-desc">318132990</h5>
+                            </div>                                 
+                        </div>                           
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 15px;">
+                    <div class="col-md-6">
+                        <label>Carrera:</label> INGENIERÍA EN COMPUTACIÓN<br>
+                        <label>Plan:</label> 2119<br>
+                        <label>Generación:</label> 20211<br>                   
+                    </div>
+                    <div class="col-md-6">
+                        <p>                                          
+                            <label>Turno:</label> MATUTINO<br>
+                            <label>Sistema:</label> ESC<br>
+                        </p>
+                    </div>
+                </div>                        
+            </div>  
+                                        
+            <div class="row">
+                <div class="col-md-4 col-lg-3">
+                    <div class="box box-solid box-success">
+                        <div class="box-header">
+                            <h3 class="box-title">Constancia de Créditos</h3>
+                        </div>
+                        <div class="box-body">
+                            <label>Folio:</label> CC2601655
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <p><b>Créditos Obligatorios</b> : 348 de 348</p>
+                <p><b>Créditos Optativos</b> : 48 de 48</p>
+                <p><b>Créditos Totales</b> : 396 de 396</p>
+            </div>
+            <div class="col-md-6">
+                <p><b>Promedio</b> : 8.01</p>
+                <p><b>Materias Aprobadas</b> : 47 de 47</p>
+            </div>
+        </div>
+
+        <hr>
+        
+        <p><b>En caso de que los datos mostrados no coincidan con la Constancia
+            escaneada favor de reportarlo al correo: serviciosescolares@aragon.unam.mx</b></p>
+      </section>
+      
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
